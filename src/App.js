@@ -1,12 +1,12 @@
 import Autocompletesearch from "./Autocompletesearchbar/Autocompletesearch";
-import CountDownTimer from "./CountDownTimer/CountDownTimer";
+import Faqpage from "./FAQ/Faqpage";
 import "./styles.css";
 import React from "react";
 
 export default function App() {
   return (
     <div>
-      <CountDownTimer />
+      <Faqpage/>
     </div>
   );
 }

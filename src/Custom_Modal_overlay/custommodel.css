@@ -1,0 +1,26 @@
+.first {
+    text-align: center;
+    margin-top: 200px;
+}
+.model{
+    background-color: radial-gradient(white, rgba(0,0,0,0.5) 50%);
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.model-content{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    padding: 16px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}

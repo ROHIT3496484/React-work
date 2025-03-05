@@ -6,8 +6,6 @@ import Faqfront from "./Faq/Faqfront";
 import Faqmyselfcomp from "./Faqmyself.js/Faqmyselfcomp";
 import Multistepfirst from "./Multi-step form/Multistepfirst";
 import Shopping from "./Shopping list/Shopping";
-import Faqpage from "./FAQ/Faqpage";
-
 
 import "./styles.css";
 import React from "react";

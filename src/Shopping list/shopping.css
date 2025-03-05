@@ -3,7 +3,22 @@
     text-align: center;  
 }
 .input{
-    size: 50px;
-    
-    
+    size: 50px; 
+}
+.outshop{
+    width: 230px;
+    margin: 10px auto;
+    height: 150px;
+    background-color: lightgrey;
+    overflow-y: auto;
+}
+.product{
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.product:hover{
+    background-color: aqua;
 }

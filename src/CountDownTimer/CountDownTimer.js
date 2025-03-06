@@ -14,9 +14,27 @@ const CountDownTimer = () => {
     <div align="center">
       <h1>Timer</h1>
       <div>
-      <input className="hrs" placeholder="HH" height={50} width={50} type="number" />
-      <input className="min" placeholder="MM" height={100} width={100} type="number" />
-      <input className="sec" placeholder="SS" height={100} width={100} type="number" />
+        <input
+          className="hrs"
+          placeholder="HH"
+          height={50}
+          width={50}
+          type="number"
+        />
+        <input
+          className="min"
+          placeholder="MM"
+          height={100}
+          width={100}
+          type="number"
+        />
+        <input
+          className="sec"
+          placeholder="SS"
+          height={100}
+          width={100}
+          type="number"
+        />
       </div>
       <button onClick={timerstarted}>Start</button>
     </div>

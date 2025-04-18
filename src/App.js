@@ -9,6 +9,7 @@ import Shopping from "./Shopping list/Shopping";
 import Countincreanddcre from "./Counterincrementanddecrement/Countincreanddcre";
 
 import "./styles.css";
+import "./CountDownTimer/CountDownTimer.css";
 import React from "react";
 import Modeopencloselogic from "./Modal(open/closelogic)/Modeopencloselogic";
 import Routing from "";

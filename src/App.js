@@ -6,14 +6,17 @@ import Faqfront from "./Faq/Faqfront";
 import Faqmyselfcomp from "./Faqmyself.js/Faqmyselfcomp";
 import Multistepfirst from "./Multi-step form/Multistepfirst";
 import Shopping from "./Shopping list/Shopping";
+import Countincreanddcre from "./Counterincrementanddecrement/Countincreanddcre";
 
 import "./styles.css";
 import React from "react";
+import Modeopencloselogic from "./Modal(open/closelogic)/Modeopencloselogic";
+import Routing from "";
 
 export default function App() {
   return (
     <div>
-      <Shopping/>
+      <CountDownTimer />
     </div>
   );
 }
